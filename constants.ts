@@ -1,0 +1,27 @@
+
+import { Genre } from './types';
+
+export const GENRES: Genre[] = ['All', 'Metal', 'Hardrock', 'Thrash', 'Death Metal', 'Black Metal', 'Doom'];
+
+/**
+ * Access the Google Sheet CSV URL from environment variables.
+ * In your Render.com Dashboard, set GOOGLE_SHEET_CSV_URL to your spreadsheet link.
+ * The App will automatically normalize it to a CSV export format.
+ */
+export const GOOGLE_SHEET_CSV_URL = 
+  import.meta.env.VITE_GOOGLE_SHEET_CSV_URL || 
+  'https://docs.google.com/spreadsheets/d/1G82EFQ-uuVTbkEMO5HjHyLS7EReswPBvq48G_83J7P4/edit?usp=sharing';
+
+export const MOCK_RECORDS = [
+  {
+    id: '1',
+    artist: 'Metallica',
+    title: "Live in '89 (The Justice Tour)",
+    genre: 'Thrash' as Genre,
+    price: 35.00,
+    condition: 'Mint',
+    imageUrls: ['https://picsum.photos/seed/metallica/600/600'],
+    stockCount: 2,
+    buyLink: 'mailto:sales@flyingdragon.com?subject=Order: Metallica - Live in 89'
+  }
+];
