@@ -86,7 +86,10 @@ const OrderFormModal: React.FC<OrderFormModalProps> = ({ isOpen, onClose, items,
                 <svg className="w-12 h-12 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"/></svg>
               </div>
               <h2 className="font-metal text-[#d4af37] text-3xl uppercase tracking-widest mb-4">Summary Ready</h2>
-              <p className="text-zinc-300 text-xs uppercase tracking-[0.3em] font-bold">Copy the payload below and dispatch to Kips1963@gmail.com</p>
+              <div className="space-y-4">
+                <p className="text-zinc-300 text-xs uppercase tracking-[0.3em] font-bold">Copy the text below and send to: Kips1963@gmail.com</p>
+                <p className="text-zinc-400 text-[10px] uppercase tracking-[0.2em] font-bold italic">You will then receive an invoice incl. shipping costs and payment options.</p>
+              </div>
             </div>
 
             <div className="relative group">
