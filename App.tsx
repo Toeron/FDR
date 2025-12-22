@@ -251,7 +251,7 @@ const App: React.FC = () => {
           <img 
             src="/FDR_Logo.png" 
             alt="Flying Dragon Records Logo" 
-            className="h-22 md:h-40 lg:h-50 w-auto mb-6 drop-shadow-[0_0_20px_rgba(212,175,55,0.6)]" 
+            className="h-[6.875rem] md:h-[12.5rem] lg:h-[15.625rem] w-auto mb-6 drop-shadow-[0_0_20px_rgba(212,175,55,0.6)]" 
           />
           <p className="font-metal text-lg md:text-xl text-white tracking-[0.3em] uppercase opacity-90 mb-6 drop-shadow-lg">
             rare metal & hardrock records
