@@ -26,7 +26,7 @@ const OrderFormModal: React.FC<OrderFormModalProps> = ({ isOpen, onClose, items,
     const hasRequest = items.some(i => i.price === 'Upon Request');
     const totalText = hasRequest ? `€${total.toFixed(2)} + items with price upon request` : `€${total.toFixed(2)}`;
 
-    return `FLYING DRAGON RECORDS - ORDER INQUIRY\n--------------------------------------\nCUSTOMER DETAILS:\nName: ${formData.name}\nEmail: ${formData.email}\nShipping Address: \n${formData.address}\n\nORDER ITEMS:\n${itemStrings}\n\nTOTAL ESTIMATE: ${totalText}\n\nMESSAGE:\n${formData.message || 'No additional message.'}\n--------------------------------------\nPlease copy this entire block and paste it into your email to orders@flyingdragon.com`;
+    return `FLYING DRAGON RECORDS - ORDER INQUIRY\n--------------------------------------\nCUSTOMER DETAILS:\nName: ${formData.name}\nEmail: ${formData.email}\nShipping Address: \n${formData.address}\n\nORDER ITEMS:\n${itemStrings}\n\nTOTAL ESTIMATE: ${totalText}\n\nMESSAGE:\n${formData.message || 'No additional message.'}\n--------------------------------------\nPlease copy this entire block and paste it into your email to Kips1963@gmail.com`;
   };
 
   const handleCopy = () => {
@@ -86,7 +86,7 @@ const OrderFormModal: React.FC<OrderFormModalProps> = ({ isOpen, onClose, items,
                 <svg className="w-12 h-12 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"/></svg>
               </div>
               <h2 className="font-metal text-[#d4af37] text-3xl uppercase tracking-widest mb-4">Summary Ready</h2>
-              <p className="text-zinc-300 text-xs uppercase tracking-[0.3em] font-bold">Copy the payload below and dispatch to orders@flyingdragon.com</p>
+              <p className="text-zinc-300 text-xs uppercase tracking-[0.3em] font-bold">Copy the payload below and dispatch to Kips1963@gmail.com</p>
             </div>
 
             <div className="relative group">

@@ -22,6 +22,6 @@ export const MOCK_RECORDS = [
     condition: 'Mint',
     imageUrls: ['https://picsum.photos/seed/metallica/600/600'],
     stockCount: 2,
-    buyLink: 'mailto:sales@flyingdragon.com?subject=Order: Metallica - Live in 89'
+    buyLink: 'mailto:Kips1963@gmail.com?subject=Order: Metallica - Live in 89'
   }
 ];

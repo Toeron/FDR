@@ -123,7 +123,7 @@ const parseCSV = (csvText: string): Record[] => {
       condition: clean(indices.condition) || 'N/A', 
       imageUrls: finalImageUrls, 
       stockCount: stock, 
-      buyLink: clean(indices.buyLink) || `mailto:orders@flyingdragon.com?subject=Inquiry: ${artist} - ${title}`, 
+      buyLink: clean(indices.buyLink) || `mailto:Kips1963@gmail.com?subject=Inquiry: ${artist} - ${title}`, 
       tracklist: indices.tracklist !== -1 ? clean(indices.tracklist) : undefined,
       notes: clean(indices.notes) || undefined
     };
@@ -307,8 +307,8 @@ const App: React.FC = () => {
           <div>
             <h4 className="font-metal text-white text-sm uppercase tracking-widest mb-4">Contact</h4>
             <ul className="text-zinc-400 text-xs space-y-2">
-              <li><a href="mailto:orders@flyingdragon.com" className="hover:text-[#d4af37] transition-colors">Order Inquiries</a></li>
-              <li><a href="mailto:info@flyingdragon.com" className="hover:text-[#d4af37] transition-colors">General Info</a></li>
+              <li><a href="mailto:Kips1963@gmail.com" className="hover:text-[#d4af37] transition-colors">Order Inquiries</a></li>
+              <li><a href="mailto:Kips1963@gmail.com" className="hover:text-[#d4af37] transition-colors">General Info</a></li>
             </ul>
           </div>
           <div>
