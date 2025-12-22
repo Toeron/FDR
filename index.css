@@ -10,9 +10,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Ensure Tailwind base styles if needed, though using CDN */
-@layer base {
-  input[type="text"] {
-    @apply focus:ring-0;
-  }
+/* Ensure input styles match design without using Tailwind @apply */
+input[type="text"] {
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: none;
 }
