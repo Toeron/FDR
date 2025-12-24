@@ -29,7 +29,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, items, onUpdateQuantity, o
       <div className={`fixed right-0 top-0 h-full w-full max-w-md bg-[#0a0a0a] border-l border-[#d4af37]/30 z-[60] transform transition-transform duration-500 ease-out flex flex-col shadow-[0_0_100px_rgba(0,0,0,1)] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-8 border-b border-zinc-900 flex justify-between items-center bg-[#050505]">
           <div className="flex items-center gap-4">
-            <img src="/FDR_Logo.svg" alt="Logo" className="h-10 w-auto" />
+            <img src="/FDR_Logo.png" alt="Logo" className="h-10 w-auto" />
             <div>
               <h2 className="font-metal text-[#d4af37] text-xl uppercase tracking-widest">Your Haul</h2>
               <p className="text-[#d4af37]/80 text-[10px] uppercase tracking-[0.2em] font-black">{items.length} Artifacts</p>
