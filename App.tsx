@@ -249,9 +249,9 @@ const App: React.FC = () => {
         </div>
         <div className="max-w-7xl mx-auto relative z-10 text-center flex flex-col items-center">
           <img 
-            src="/FDR_Logo.png" 
-            alt="Flying Dragon Records Logo" 
-            className="h-[10.743rem] md:h-[19.531rem] lg:h-[24.414rem] w-auto mb-6 drop-shadow-[0_0_20px_rgba(212,175,55,0.6)]" 
+            src="/FDR_Logo.png"
+            alt="Flying Dragon Records Logo"
+            className="h-[10.743rem] md:h-[19.531rem] lg:h-[24.414rem] w-auto mb-6 drop-shadow-[0_0_20px_rgba(212,175,55,0.6)]"
           />
           <p className="font-metal text-lg md:text-xl text-white tracking-[0.3em] uppercase opacity-90 mb-6 drop-shadow-lg">
             rare metal & hardrock records
